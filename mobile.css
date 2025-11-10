@@ -1,0 +1,175 @@
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+    }
+
+    .sidenav {
+        transform: translateX(-100%);
+        width: 250px;
+    }
+
+    .sidenav.active {
+        transform: translateX(0);
+        box-shadow: 5px 0 15px rgba(0,0,0,0.3);
+    }
+
+    .main-content {
+        margin-left: 0;
+    }
+
+    .section {
+        padding: 60px 30px;
+        min-height: auto;
+    }
+
+    #home {
+        min-height: 100vh;
+    }
+
+    #home h2 {
+        font-size: 2.5em;
+    }
+
+    #home p {
+        font-size: 1.2em;
+    }
+
+    .cta-button {
+        padding: 10px 25px;
+        font-size: 0.95em;
+    }
+
+    .section-title {
+        font-size: 2em;
+    }
+
+    .about-text {
+        font-size: 1em;
+    }
+
+    .subsection-title {
+        font-size: 1.5em;
+    }
+
+    .education-timeline {
+        padding-left: 25px;
+    }
+
+    .timeline-item {
+        padding: 15px;
+    }
+
+    .timeline-item::before {
+        left: -31px;
+        width: 10px;
+        height: 10px;
+    }
+
+    .skills-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+
+    .skill-item {
+        padding: 20px 15px;
+    }
+
+    .skill-item .icon {
+        font-size: 2em;
+    }
+
+    .portfolio-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .project-image {
+        height: 150px;
+        font-size: 2.5em;
+    }
+
+    .project-info {
+        padding: 20px;
+    }
+
+    .project-info h4 {
+        font-size: 1.2em;
+    }
+
+    .project-info p {
+        font-size: 0.95em;
+    }
+
+    .contact-info {
+        font-size: 1em;
+    }
+
+    .scroll-top {
+        width: 45px;
+        height: 45px;
+        font-size: 1.3em;
+        bottom: 20px;
+        right: 20px;
+    }
+}
+
+/* Extra Small Mobile (max-width: 480px) */
+@media (max-width: 480px) {
+    .section {
+        padding: 40px 20px;
+    }
+
+    #home h2 {
+        font-size: 2em;
+    }
+
+    #home p {
+        font-size: 1em;
+    }
+
+    .section-title {
+        font-size: 1.8em;
+    }
+
+    .sidenav {
+        width: 220px;
+    }
+
+    .sidenav h1 {
+        font-size: 1.3em;
+    }
+
+    .sidenav nav ul li {
+        margin-bottom: 15px;
+    }
+
+    .skills-container {
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+
+    .skill-item {
+        padding: 20px;
+    }
+
+    .project-tags {
+        gap: 8px;
+    }
+
+    .tag {
+        font-size: 0.8em;
+        padding: 4px 10px;
+    }
+
+    .contact-info {
+        font-size: 0.95em;
+    }
+
+    .scroll-top {
+        width: 40px;
+        height: 40px;
+        font-size: 1.2em;
+        bottom: 15px;
+        right: 15px;
+    }
+}

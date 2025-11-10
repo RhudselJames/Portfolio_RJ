@@ -1,0 +1,121 @@
+@media (max-width: 1024px) and (min-width: 769px) {
+    .sidenav {
+        width: 200px;
+        padding: 30px 20px;
+    }
+
+    .sidenav h1 {
+        font-size: 1.3em;
+    }
+
+    .sidenav .subtitle {
+        font-size: 0.85em;
+    }
+
+    .sidenav nav ul li a {
+        font-size: 0.95em;
+    }
+
+    .main-content {
+        margin-left: 200px;
+    }
+
+    .section {
+        padding: 60px 40px;
+    }
+
+    #home h2 {
+        font-size: 3em;
+    }
+
+    #home p {
+        font-size: 1.3em;
+    }
+
+    .section-title {
+        font-size: 2.2em;
+    }
+
+    .skills-container {
+        grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+        gap: 15px;
+    }
+
+    .skill-item {
+        padding: 25px 15px;
+    }
+
+    .skill-item .icon {
+        font-size: 2.2em;
+    }
+
+    .portfolio-grid {
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 25px;
+    }
+
+    .project-image {
+        height: 180px;
+        font-size: 2.5em;
+    }
+
+    .project-info {
+        padding: 20px;
+    }
+
+    .project-info h4 {
+        font-size: 1.2em;
+    }
+
+    .contact-info {
+        font-size: 1.1em;
+    }
+
+    .scroll-top {
+        width: 45px;
+        height: 45px;
+        font-size: 1.3em;
+        bottom: 25px;
+        right: 25px;
+    }
+}
+
+@media (max-width: 768px) {
+    .sidenav {
+        width: 200px;
+        padding: 30px 20px;
+    }
+
+    .main-content {
+        margin-left: 200px;
+    }
+
+    .section {
+        padding: 50px 30px;
+    }
+
+    #home h2 {
+        font-size: 2.8em;
+    }
+
+    #home p {
+        font-size: 1.2em;
+    }
+
+    .section-title {
+        font-size: 2em;
+    }
+
+    .subsection-title {
+        font-size: 1.5em;
+    }
+
+    .skills-container {
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        gap: 15px;
+    }
+
+    .portfolio-grid {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+}
